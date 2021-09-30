@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ferenc Molnár Developer</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a id="logo" href="./index.html">
+          <img class="logo" src="./image/logoFM.png" alt="logo" />
+        </a>
+        <button class="ham">
+          <i class="fas fa-bars menuIcon"></i>
+          <i class="fas fa-times xIcon"></i>
+        </button>
+        <ul class="menu">
+          <li><a class="homeLink menuLink" href="./index.html">Home</a></li>
+          <li><a class="profileLink menuLink" href="#">Profile</a></li>
+          <li><a class="worksLink menuLink" href="#">Works</a></li>
+          <li><a class="contactsLink menuLink" href="#">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <div class="main">
+          <img src="./image/IMG_20191227_133342.jpg" alt="zakopane" />
+          <div class="headline">
+            <h1>Ferenc Molnár</h1>
+            <h3>Junior Frontend Developer</h3>
+          </div>
+        </div>
+      </section>
+      <!--<section>
+      </section>
+      <section>
+      </section>
+      <section>
+        <div class="contacts">
+          <h4>Contacts</h4>
+          <div class="contactsHead">
+            <h2>Ferenc Molnár</h2>
+            <p>Junior Frontend Developer</p>
+            <i class="fas fa-map-marker-alt"></i><span>Location: Budapest</span>
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/ferenc-moln%C3%A1r-5b12741a0/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            <a href="mailto: frankmoln85@gmail.com"><i class="fas fa-envelope-square"></i>Email</a>
+            <a href="https://www.facebook.com/ferenc.molnar.12177276" target="_blank"><i class="fab fa-facebook-square"></i>Facebook</a>
+          </div>
+        </div>
+      </section>-->
+    </header>
+
+    <div class="slider"></div>
+
+    <div class="profile">
+      <h4 id="profTitle">Profile</h4>
+      <div class="profileHead">
+        <img src="./image/cvpic2.jpg" alt="selfy" />
+        <div class="nameTag">
+          <h2>Ferenc Molnár</h2>
+          <p>Junior Frontend Developer</p>
+        </div>
+      </div>
+      <div class="about">
+        <h5>About</h5>
+        <p>
+          Determined and productive web developer with a passion for creative
+          solutions. Proficient in JavaScript, CSS and HTML. Dedicated to
+          learning additional technologies and coding languages. Interested in
+          UI/UX design. Spent several years in the UK and used to work in
+          English language. Looking for an entry-level position at a great
+          company to be a hard-working asset to any team, to learn, grow and
+          develop long-term.
+        </p>
+      </div>
+      <div class="study">
+        <h5>Education</h5>
+        <div class="education">
+          <img src="./image/codecool.jpg" alt="codecool" />
+          <p>
+            <b>Codecool</b> <br />
+            Junior Frontend Developer <br />
+            2020-2021
+            <!--<br>
+            Completed a 640 hours frontend web developer course, participated in
+            many entry and intermediate level projects.-->
+          </p>
+        </div>
+      </div>
+      <div class="experience">
+        <h5>Experience</h5>
+      </div>
+      <div class="skills">
+        <h5>Skills</h5>
+      </div>
+      <div class="cv">
+        <a
+          class="downloadCv"
+          href="./file/Ferenc_Molnar_CV2021min_Eng.pdf"
+          download
+          >Download CV</a
+        >
+        <!--<button class="downloadCv">Download CV</button>-->
+      </div>
+    </div>
+
+    <div class="works">
+      <h4 id="worksTitle">Works</h4>
+      
+        <div class="worksCard">
+          <a href="https://frankom85.github.io/weather-app/" target="_blank"
+            >Weather-app</a
+          >
+        </div>
+        <div class="worksCard">
+          <a
+            href="https://frankom85.github.io/rick-and-morty-characters/"
+            target="_blank"
+            >Rick-and-Morty-characters</a
+          >
+        </div>
+        <div class="worksCard">
+          <a
+            href="https://frankom85.github.io/star-wars-planets/"
+            target="_blank"
+            >Star-Wars-planets</a
+          >
+        </div>
+      </div>
+    
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./scripts/main.js"></script>
+</html>
